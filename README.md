@@ -1,4 +1,6 @@
 # ngrx-cache
+[![npm version](https://img.shields.io/npm/v/ngrx-cache.svg)](https://www.npmjs.org/package/ngrx-cache)
+[![travis](https://img.shields.io/travis/pangwa/ngrx-cache.svg)](https://travis-ci.org/pangwa/ngrx-cache)
 
 A simple in memory cache for rx obserable using typescript decorator. It could be used with angular easily.
 
