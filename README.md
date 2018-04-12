@@ -11,7 +11,9 @@ A simple in memory cache for rx obserable using typescript decorator. It could b
 ### Quick Start
 `npm install --save ngrx-cache`
 
-```js
+```ts
+import { ngrxCache } from 'ngrx-cache'
+
 class MyService{
   @ngrxCache({key: (id: number) => `c_${id}`})
   public getValue(id: number) {
