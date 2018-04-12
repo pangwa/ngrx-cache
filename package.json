@@ -1,0 +1,35 @@
+{
+  "name": "ngrx-cache",
+  "version": "0.0.1",
+  "description": "simple in memory cache for rx obserable using typescript decrators",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha --require ts-node/register ./test/*.spec.ts",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pangwa/ngrx-cache.git"
+  },
+  "keywords": [
+    "angular",
+    "cache",
+    "typescript"
+  ],
+  "author": "pangwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pangwa/ngrx-cache/issues"
+  },
+  "homepage": "https://github.com/pangwa/ngrx-cache#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.0.0"
+  },
+  "dependencies": {
+    "rxjs": "*"
+  }
+}
